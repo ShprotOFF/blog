@@ -24,6 +24,17 @@ a{
 	text-decoration: none;
 }
 
+input{
+	border: 1px solid #ececec;
+	border-radius: 4px;
+	color: #444;
+	display: block;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	padding: 10px 12px;
+	width: 100%;
+}
+
 /*HRADER*/
 header{
 	background: #015367;
@@ -59,4 +70,153 @@ header ul li a{
 	font-size: 1.2rem;
 	margin-top: 25px;
 	padding: 10px;
+}
+
+/*Контент*/
+.main-content h2{
+	margin: 30px 0;
+}
+
+.main-content .post{
+	margin-bottom: 30px;
+}
+
+.main-content .post_text{
+	background: #fff;
+	border-radius: 4px;
+	padding: 8px;
+}
+
+.main-content .post_text h3{
+	margin: 15px 0;
+}
+
+.main-content .post_text h3 a:hover{
+	color: inherit;
+	text-decoration: underline;
+}
+
+.main-content .post_text i{
+	margin-right: 14px;
+}
+
+/*Правая колонка*/
+.search{
+	margin-top: 97px;
+}
+
+.sidebar .section{
+	background: #fff;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+.sidebar .topics ul{
+	border-top: 1px solid #e0e0e0;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.sidebar .topics ul li a{
+	border-bottom: 1px solid #e0e0e0;
+	color: #5c5b5b;
+	display: block;
+	font-size: 1.2em;
+	font-weight: 500;
+	padding: 15px 0px 15px 0px;
+	transition: all 0.3s;
+}
+
+.sidebar .topics ul li a:hover{
+	padding-left: 3px;
+	transition: all 0.3s;
+}
+
+footer{
+	background: #015367;
+	color: #d3d3d3;
+	position: relative;
+}
+
+footer .footer-section{
+	padding: 22px;
+}
+
+footer h3, footer h4{
+	color: #fff;
+}
+
+footer .about .contact span{
+	display: block;
+	font-size: 1.1em;
+	margin-bottom: 8px;
+}
+
+footer .about .socials a{
+	border: 1px solid gray;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.3em;
+	height: 41px;
+	margin-right: 5px;
+	padding-top: 5px;
+	text-align: center;
+	transition: all .3s;
+	width: 45px;
+}
+
+footer .about .socials a:hover{
+	border: 1px solif white;
+	color: white;
+	transition: all .3s;
+}
+
+footer .links ul a{
+	color: #fff;
+	display: block;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+	/*text-decoration: none;*/
+	transition: all .3s;
+}
+
+footer .links ul a:hover{
+	color: #fff;
+	margin-left: 15px;
+	transition: all .3s;
+}
+
+footer .contact-form .contact-input{
+	background: #272727;
+	border: none;
+	color: #bebdbd;
+	line-height: 1.5rem;
+	margin-bottom: 10px;
+	padding: .9rem 1.4rem;
+	width: 100%;
+}
+
+footer .contact-form .contact-input:focus{
+	background: #1a1a1a;
+}
+
+footer .contact-form .contact-btn{
+	float: right;
+	font-family: 'Lora', serif;
+	font-size: 1.1em;
+}
+
+footer .footer-bottom{
+	background: #015367;
+	bottom: 0px;
+	color: #686868;
+	height: 50px;
+	left: 0px;
+	padding-top: 15px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
 }
