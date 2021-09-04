@@ -7,7 +7,7 @@
     <!-- Bootstrap стили -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Пиздатый гугловский шрифт -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,7 +39,7 @@
 
           <div class="post row">
             <div class="img col-12 col-md-4">
-              <img src="img/img.png" alt="Картинка к посту" class="img-thumbnail">
+              <img src="assets/img/img.png" alt="Картинка к посту" class="img-thumbnail">
             </div>
             <div class="post_text col-12 col-md-8">
               <h3><a href="#">Название поста</a></h3>
@@ -53,7 +53,7 @@
 
           <div class="post row">
             <div class="img col-12 col-md-4">
-              <img src="img/img.png" alt="Картинка к посту" class="img-thumbnail">
+              <img src="assets/img/img.png" alt="Картинка к посту" class="img-thumbnail">
             </div>
             <div class="post_text col-12 col-md-8">
               <h3><a href="#">Название поста</a></h3>
@@ -67,7 +67,7 @@
 
           <div class="post row">
             <div class="img col-12 col-md-4">
-              <img src="img/img.png" alt="Картинка к посту" class="img-thumbnail">
+              <img src="assets/img/img.png" alt="Картинка к посту" class="img-thumbnail">
             </div>
             <div class="post_text col-12 col-md-8">
               <h3><a href="#">Название поста</a></h3>
@@ -88,7 +88,6 @@
               <input type="text" name="search-term" class="text-input" placeholder="Что ищем...?">
             </form>
           </div>
-          <p>Сайд бар</p>
 
           <div class="section topics">
             <h3>Категории</h3>
